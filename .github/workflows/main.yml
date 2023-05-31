@@ -1,7 +1,8 @@
 ---
 name: speed_tester
 on:
-    push
+    push:
+        branches: [ main ]
 
 jobs:
     build:

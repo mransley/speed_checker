@@ -6,11 +6,11 @@ In an attempt to keep my internet service provider honest I thought I would crea
 
 Relatively simple:
 
-    docker build -t ransley/michaelransley:latest .
+    docker build -t michaelransley/speedtester:latest .
 
 ## Running
 
     export URL="https://elastic.mydomain.com:9200/myindex/_doc?pretty"
     export USERNAME="myelasticusername"
     export PASSWORD="myelasticpassword"
-    docker run --env URL --env USERNAME --env PASSWORD michaelransley/speedtest:latest
+    docker run --env URL --env USERNAME --env PASSWORD michaelransley/speedtester:latest
