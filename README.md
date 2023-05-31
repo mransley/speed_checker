@@ -1,5 +1,7 @@
 # Internet Speed Checker
 
+![Build Status](https://github.com/mransley/speed_checker/actions/workflows/main.yml/badge.svg)
+
 In an attempt to keep my internet service provider honest I thought I would create a service that runs a speed check and then uploads the results into ElasticSearch.  This is the outcome.
 
 ## Building
